@@ -19,4 +19,9 @@ object Libs {
         const val material = "com.google.android.material:material:$materialVersion"
     }
 
+    object Gradle {
+        private const val version = "4.2.0"
+        const val buildGradle = "com.android.tools.build:gradle:$version"
+    }
+
 }
